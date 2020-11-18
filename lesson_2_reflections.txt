@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+it initialize an empty Git repo with untraked files.
+i need it to add files to be tracked later.
+---------------------------------------------------------------------------------------------------------------------------------------
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+the staging area contains only the files i want to commit.
+the working directory contains all the files.
+the repo contains the commits.
