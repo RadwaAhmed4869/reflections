@@ -5,6 +5,39 @@ i need it to add files to be tracked later.
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
+
 the staging area contains only the files i want to commit.
 the working directory contains all the files.
 the repo contains the commits.
+---------------------------------------------------------------------------------------------------------------------------------------
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+adding only the files i want to commit to the staging area using "git add <file_name>"
+then commit them to the repo using "git commit"
+while the other files still in the working directory
+---------------------------------------------------------------------------------------------------------------------------------------
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+when wanting to try a new feature to see if it works.
+or making another version of the project while keeping the original as it is.
+ with branches, i can make changes on a copy of the project and commit to it and move around the commits using "git checkout".
+---------------------------------------------------------------------------------------------------------------------------------------
+
+How do the diagrams help you visualize the branch structure?
+
+it draws a separated line for the branch making it more easy to read.
+---------------------------------------------------------------------------------------------------------------------------------------
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+merging two branches combines changes in both files into one commit (taking the origin parent in considration)
+the new commit is labeled to the checked-out branch
+in the diagram it shows that it returned to the master branch
+---------------------------------------------------------------------------------------------------------------------------------------
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pros: automatic merging save the time of comparing two versions of the project and try to merge them logically.
+cons: i will need to merge manually if there's a conflict (the commits change the same part of code)
+,but this is a good thing instead og git trying to guess what to add and what to neglect and cause bugs
