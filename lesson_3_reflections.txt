@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+1- when i'm working on another pc that doesn't have a text editor.
+2- when making a small change or correct a spelling.
